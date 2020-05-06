@@ -9,6 +9,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import index from '@/views/index'
+// chapter6: findComponents 系列方法
+import chapter6 from '@/views/chapter6'
+import chapter10 from '@/views/chapter10'
 
 Vue.use(Router)
 
@@ -18,6 +21,16 @@ export default new Router({
       path: '/',
       name: 'index',
       component: index
+    },
+    {
+      path: '/chapter6',
+      name: 'chapter6',
+      component: chapter6
+    },
+    {
+      path: '/chapter10',
+      name: 'chapter10',
+      component: chapter10
     }
   ]
 })
