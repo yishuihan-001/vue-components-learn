@@ -9,6 +9,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import index from '@/views/index'
+import slient from '@/views/slient'
 // chapter6: findComponents 系列方法
 import chapter6 from '@/views/chapter6'
 import chapter10 from '@/views/chapter10'
@@ -26,6 +27,11 @@ export default new Router({
       path: '/',
       name: 'index',
       component: index
+    },
+    {
+      path: '/slient',
+      name: 'slient',
+      component: slient
     },
     {
       path: '/chapter6',
